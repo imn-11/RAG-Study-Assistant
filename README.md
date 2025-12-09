@@ -3,7 +3,7 @@
 A RAG (Retrieval-Augmented Generation) study assistant that lets you upload PDFs, ask questions, and get accurate answers using local LLMs (Ollama) or cloud models.
 
 **Backend:** Flask + LangChain + Ollama/Whisper
-**Frontend:** React + Vite + TailwindCSS (assumed from your structure)
+**Frontend:** React + Vite + TailwindCSS 
 
 ---
 
@@ -88,9 +88,9 @@ Frontend will run at: `http://localhost:5173` (or similar). Open your browser �
 RAG-StudyAssistant/
 ├── backend/                 Flask API + RAG logic
 │   ├── server.py            Main entry point
+│   ├── data/                    Uploaded files & vector store
 │   └── pip-requirements.txt All working Python packages
 │
-├── data/                    Uploaded files & vector store
 │
 ├── frontend/                React + Vite app
 │   ├── src/
