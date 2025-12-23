@@ -1,6 +1,6 @@
 # RAG Study Assistant
 
-A RAG (Retrieval-Augmented Generation) study assistant that lets you upload PDFs, ask questions, and get accurate answers using local LLMs (Ollama) or cloud models.
+A RAG (Retrieval-Augmented Generation) study assistant that lets you upload PDFs, ask questions, and get accurate answers using local LLM (Ollama).
 
 **Backend:** Flask + LangChain + Ollama/Whisper
 **Frontend:** React + Vite + TailwindCSS 
